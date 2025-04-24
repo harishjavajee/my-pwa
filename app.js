@@ -7,7 +7,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
   // Save the event so we can trigger it later
   deferredPrompt = e;
-
+  console.log("beforeinstallprompt event captured");
   // Show your custom "Install" button or UI
   document.getElementById('installBtn').style.display = 'block';
 });
